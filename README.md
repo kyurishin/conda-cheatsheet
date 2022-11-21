@@ -1,7 +1,7 @@
 # Conda Cheatsheet
 
 ## Quick Start
-### Tip: It is recommended to create a new environment for any new project or workflow.
+Tip: It is recommended to create a new environment for any new project or workflow.
 | Fuction                                   | Command                               |
 |:---------------------------------------|:-----------------------------------|
 | verify conda install and check version | conda info      |
@@ -28,7 +28,7 @@
 | set default channel for pkg fetching (targets first channel in channel sources) | conda config --set channel_priority strict |
 
 ## Working with Conda Environments
-### Tip:  List environments at the beginning of your session. Environments with an asterisk are active.
+Tip:  List environments at the beginning of your session. Environments with an asterisk are active.
 | Fuction                                   | Command                               |
 |:---------------------------------------|:-----------------------------------|
 | list all environments and locations | conda env list |
@@ -38,7 +38,7 @@
 | update all packages in environment | conda update --all -n **ENVNAME** |
 
 ## Environment Management
-### Tip: Specifying the environment name confines conda commands to that environment.
+Tip: Specifying the environment name confines conda commands to that environment.
 | Fuction                                   | Command                               |
 |:---------------------------------------|:-----------------------------------|
 | create environment with Python version | conda create -n **ENVNAME** python=**3.10** |
@@ -50,7 +50,7 @@
 | uninstall package from specific channel | conda remove -n **ENVNAME** -c **CHANNELNAME** **PKGNAME** |
 
 ## Exporting Environments
-### Tip: Recommendation: Name the export file “environment.” Environment name will be preserved.
+Tip: Recommendation: Name the export file “environment.” Environment name will be preserved.
 | Fuction                                   | Command                               |
 |:---------------------------------------|:-----------------------------------|
 | cross-platform compatible | conda env export --from-history>**ENV**.yml |
@@ -58,7 +58,7 @@
 | platform + package + channel specific | conda list --explicit>**ENV**.txt |
 
 ## Importing Environments
-### Tip: When importing an environment, conda resolves platform and package specifics
+Tip: When importing an environment, conda resolves platform and package specifics
 | Fuction                                   | Command                               |
 |:---------------------------------------|:-----------------------------------|
 | from a .yml file | conda env create -n **ENVNAME** --file **ENV**.yml |
