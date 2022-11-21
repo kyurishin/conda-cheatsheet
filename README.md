@@ -68,8 +68,7 @@
 | Fuction                                   | Command                               |
 |:---------------------------------------|:-----------------------------------|
 | get help for any command | conda **COMMAND** --help |
-| get info for any package conda search **PKGNAME** --info |
-| run commands w/o user prompt | conda **COMMAND** **ARG** --yes |
-eg, installing multiple packages | conda install **PKG1** **PKG2** --yes
+| get info for any package | conda search **PKGNAME** --info |
+| run commands w/o user prompt <br /> eg, installing multiple packages | conda **COMMAND** **ARG** --yes <br /> conda install **PKG1** **PKG2** --yes |
 | remove all unused files | conda clean --all |
 | examine conda configuration | conda config --show |
